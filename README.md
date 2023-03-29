@@ -2,7 +2,9 @@
 A simple website created using HTML, CSS and JavaScript. It uses simple concepts to make a clean and aesthetic appeal.
 
 *This repository contains two HTML files*
+
 One of the file contains *CSS internally using <style/> tags* while the other one uses *CSS externally i.e. using the <link/> tag* to refer to the stylesheet.
+
 If you are the using the *HTML-only* file, it is necessary to also use the stylesheet.
 This is not necessary if you use the file with both HTML and CSS.
 
