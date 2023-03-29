@@ -1,5 +1,5 @@
 # Aesthetic-Website
-A simple website created using HTML, CSS and JavaScript. It uses simple concepts to make a clean and aesthetic appeal.
+A simple website created using HTML and CSS. It uses simple concepts to make a clean and aesthetic appeal.
 
 *This repository contains two HTML files*
 
