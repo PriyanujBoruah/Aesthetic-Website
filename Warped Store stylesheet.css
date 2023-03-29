@@ -1,0 +1,433 @@
+body {
+	font-family: 'Courier New', monospace;
+	background-color: #262626;
+	margin: 0%;
+	padding: 0%;
+}
+.header table{
+	position: fixed;
+	width: 100%;
+	table-layout: fixed;
+	z-index: 1;
+}
+.logo {
+	padding-right: 58%;
+	text-align: right;
+	font-weight: bold;
+	color: #262626;
+	font-size: 30px;
+}
+.logo a {
+	color: #000000
+}
+.header a {
+	text-decoration: none;
+}
+.header table tr td.head{
+	width: 11%;
+	font-weight: bold;
+	font-size: 17px;
+	color: #AA9785
+}
+.head a {
+	color: #AA9785
+}
+
+
+.sector1 {
+	text-align: center;
+	height: 35%;
+	padding-top: 10%;
+}
+
+.sector1 p {
+	color:#404040;
+	font-weight: lighter;
+	font-size: 40px; 
+	color:#AA9785; 
+	letter-spacing:2px; 
+	line-height:100px;
+}			
+
+.SECTOR1 {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.log{  
+    width: 30%;  
+    height: 17%;  
+    border-color: #262626;  
+    border-radius: 0px;  
+    margin: 0px 30% 0px 0%;
+    color: #000000;
+    background-color: #cccccc;
+	transition: 0.7s;
+    cursor: pointer;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 25px;
+	text-align: left;
+}  
+.log:hover {
+	border: 1px solid #AA9785;
+	background-color: #AA9785;
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	width: 40%;
+}
+
+
+.sector2 {
+	background-color: #cccccc;
+	background-size: 100% 100%;
+	padding: 25% 0px 25% 0px;
+	color: #404040
+}	
+
+.contact {
+	width: 27%;
+	height: 73%;
+	margin-left: 25%;
+	margin-right: -70%;
+	margin-top: -17%;
+	border: 10px solid #404040;
+	position: absolute;
+}
+.inside_contact {
+	margin-left: 30%;
+	margin-right: 10%;
+	margin-top: -12%;
+	padding-top: 2%;
+	width: 40%;
+	height: 52%;
+	background-color: #333333;
+	color: #AA9785;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+}
+.inside_contact h3 {
+	font-family: 'Courier New', monospace;
+}
+.intro, .intro2 {
+	width: 50%;
+	padding-left: 10%;
+}
+.intro {
+	line-height: 150%;
+	color: #AA9785;
+	border-right: 2px solid #AA9785;
+	font-family: 'Courier New', monospace;
+}
+.intro2 {
+	padding-left: 10%;
+	color: #AA9785;
+}
+.log2{  
+    width: 50%;  
+    height: 38px;  
+    border-color: #333333;  
+    border-radius: 0px;  
+    color: #333333;
+    background-color: #cccccc;
+	transition: 0.7s;
+    cursor: pointer;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+}  
+.log2:hover {
+	border: 1px solid #AA9785;
+	background-color: #AA9785;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.pics {
+	background-color: black;
+}
+.pics table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.rows {
+	height: 100px;
+}
+.linked_pic1 {
+	background-image: url("linked-pic1.jpg");
+}
+.linked_pic2 {
+	background-image: url("linked-pic2.jpg");
+}
+.linked_pic3 {
+	background-image: url("linked-pic3.jpg");
+}
+.linked_pic4 {
+	background-image: url("linked-pic4.jpg");
+}
+.linked_pic5 {
+	background-image: url("linked-pic5.jpg");
+}
+.linked_pic6 {
+	background-image: url("linked-pic6.jpg");
+}
+.linked_pic1,.linked_pic2,.linked_pic3,.linked_pic4,.linked_pic5,.linked_pic6 {
+	height: 720px;
+	background-size: 100% 100%;
+	transition: 0.5s;
+}
+.linked_pic1:hover,.linked_pic2:hover,.linked_pic3:hover,.linked_pic4:hover,.linked_pic5:hover,.linked_pic6:hover {
+	opacity: 0.7;
+}
+.pics a {
+	text-decoration: none;
+	color: #262626;
+	font-size: 100px;
+	text-align: center;
+	opacity: 0.6;
+	transition: 0.5s;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+}
+.pics a:hover {
+	color: #AA9785;
+	opacity: 1;
+}
+.pics a p {
+	color: #AA9785;
+	opacity: 1;
+}
+
+
+.slider {
+	padding-top: 20%;
+	padding-bottom: 20%;
+	background-image: linear-gradient(180deg, #000000, #AA9785);
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.border-box {
+	background-color: #262626;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid #cccccc;
+	border-radius: 5%;
+	height: 56%;
+	width: 35%;
+}
+.out_slide {
+	height: 380px; 
+	width: 480px; 
+	margin: 0 auto;
+	border-radius: 5%;
+	background-color: #262626;
+}
+.out_slide h2 {
+	padding-top: 45px;
+	text-align: center;
+	color: #AA9785;
+	font-family: 'Courier New', monospace;
+}
+/* Styling the area of the slides */
+#slideshow { 
+	overflow: hidden; 
+	height: 290px; 
+	width: 480px; 
+	margin: 0 auto;
+	border-radius: 5%;
+	padding-top: 10px;
+} 
+/* Style each of the sides 
+with a fixed width and height */
+.slide { 
+	float: left; 
+	height: 290px; 
+	width: 480px; 
+} 
+/* Add animation to the slides */
+.slide-wrapper { 
+/* Calculate the total width on the 
+basis of number of slides */
+	width: calc(480px * 4); 
+/* Specify the animation with the 
+duration and speed */
+	animation: slide 30s ease infinite; 
+} 
+/* Set the background color 
+of each of the slides */
+.slide:nth-child(1) { 
+	background: #262626; 
+} 
+.slide:nth-child(2) { 
+	background: #262626;
+}  
+.slide:nth-child(3) { 
+	background: #262626; 
+} 
+.slide:nth-child(4) { 
+	background: #262626; 
+} 
+/* Define the animation 
+for the slideshow */
+@keyframes slide { 
+/* Calculate the margin-left for 
+each of the slides */
+	20% { 
+		margin-left: 0px; 
+	} 
+	40% { 
+		margin-left: calc(-480px * 1); 
+	} 
+	60% { 
+		margin-left: calc(-480px * 2); 
+	} 
+	80% { 
+		margin-left: calc(-480px * 3); 
+	} 
+}
+.slide-number {
+	padding-left: 17%;
+	padding-right: 17%;
+	font-size: 18px;
+	font-family: 'Courier New', monospace;
+	text-align: justify;
+	text-justify: inter-word;
+	font-weight: bold;
+	color: #c6c6c6
+}
+.slide-num {
+	padding-top: -50%;
+	font-size: 19px;
+}
+
+
+.works {
+	background-color: #cccccc;
+	height: 100%;
+	margin-top: -5%;
+	padding-bottom: 7%;
+}
+.works h1 {
+	padding-top: 12%;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Courier New', monospace;
+	color: #262626;
+}
+.works table {
+	height: 29%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+  	border-spacing: 60px 0;
+	margin-top: 8%;
+}
+.work-pic1 {
+	background-image: url("work-pic1.jpg");
+}
+.work-pic2 {
+	background-image: url("work-pic2.jpg");
+}
+.work-pic3 {
+	background-image: url("work-pic3.jpg");
+}
+.work-pic4 {
+	background-image: url("work-pic4.jpg");
+}
+.work-pic5 {
+	background-image: url("work-pic5.jpg");
+}
+.work-pic1, .work-pic2, .work-pic3, .work-pic4, .work-pic5 {
+	background-size: 100% 100%;
+	column-gap: 100px;
+}
+
+
+
+.footer {
+	background-color: #cccccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-bottom: 10%;
+	width: 90%
+}
+.left h2 {
+	font-size: 18px;
+}
+.left-button {
+	background-color: #cccccc;
+	border: none;
+	transition: 0.7s;
+	text-align: left;
+	cursor: pointer;
+	font-family: 'Courier New', monospace;
+	font-weight: bolder;
+	font-size: 35px;
+}
+.left-button:hover {
+	letter-spacing: 10px;
+}
+.middle {
+	text-align: center;
+}
+.middle p {
+	padding-top: 10%;
+}
+.right {
+	text-align: right;
+	padding-right: 2%;
+}
+.footer-button {
+	width: 50%;  
+    height: 38px;  
+    border-color: #262626;  
+    border-radius: 0px;  
+    color: #cccccc;
+    background-color: #262626;
+	transition: 0.7s;
+    cursor: pointer;
+	font-family: 'Courier New', monospace;
+}
+.footer-button:hover {
+	border: 1px solid #AA9785;
+	background-color: #AA9785;
+	color: #262626;
+	font-size: 18px;
+	font-weight: bold;
+	width: 80%
+}
+.DS,.GD,.WD,.SP {
+	transition: 0.7s;
+	cursor: pointer;
+	font-size: 15px;
+}
+.DS:hover {
+	font-size: 17px;
+}
+.GD:hover {
+	font-size: 17px;
+}
+.WD:hover {
+	font-size: 17px;
+}
+.SP:hover {
+	font-size: 17px;
+}
+.footer table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	width: 95%;
+	table-layout: fixed;
+}
+.footer table tr {
+	column-gap: 100px;
+}
